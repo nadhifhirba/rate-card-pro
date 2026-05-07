@@ -55,7 +55,7 @@ const blankDraft = (counter: number) => ({
   taxRate: 11,
   items: [] as Quote["items"],
   createdAt: Date.now(),
-  status: "draft" as const,
+  status: "draft" as Invoice["status"],
   draftNumber: nextInvoiceNumber(counter),
 });
 
