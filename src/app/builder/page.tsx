@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Eye, EyeOff, Edit3, Trash2, Save } from "lucide-react";
+import { Plus, Eye, EyeOff, Edit3, Trash2, Save, LayoutDashboard } from "lucide-react";
 import { useStore } from "@/lib/store";
 import type { Service, Profile } from "@/lib/store";
 
